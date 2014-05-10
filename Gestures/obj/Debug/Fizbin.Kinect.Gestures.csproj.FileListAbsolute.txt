@@ -1,0 +1,4 @@
+C:\Users\Thomas Zhang\Documents\Visual Studio 2010\Projects\Fizbin.Kinect.Gestures\Fizbin.Kinect.Gestures\bin\Debug\Fizbin.Kinect.Gestures.dll
+C:\Users\Thomas Zhang\Documents\Visual Studio 2010\Projects\Fizbin.Kinect.Gestures\Fizbin.Kinect.Gestures\bin\Debug\Fizbin.Kinect.Gestures.pdb
+C:\Users\Thomas Zhang\Documents\Visual Studio 2010\Projects\Fizbin.Kinect.Gestures\Fizbin.Kinect.Gestures\obj\Debug\Fizbin.Kinect.Gestures.dll
+C:\Users\Thomas Zhang\Documents\Visual Studio 2010\Projects\Fizbin.Kinect.Gestures\Fizbin.Kinect.Gestures\obj\Debug\Fizbin.Kinect.Gestures.pdb
