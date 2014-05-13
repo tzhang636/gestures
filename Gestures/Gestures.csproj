@@ -50,7 +50,11 @@
     <Compile Include="GestureEventArgs.cs" />
     <Compile Include="IRelativeGestureSegment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Segments\ArmsCrossedSegment.cs" />
     <Compile Include="Segments\JoinedHandsSegment.cs" />
+    <Compile Include="Segments\LungeLeftSegment.cs" />
+    <Compile Include="Segments\LungeRightSegment.cs" />
+    <Compile Include="Segments\SquatSegment.cs" />
     <Compile Include="Segments\SwipeDown\SwipeDownSegment1.cs" />
     <Compile Include="Segments\SwipeDown\SwipeDownSegment2.cs" />
     <Compile Include="Segments\SwipeDown\SwipeDownSegment3.cs" />
@@ -60,13 +64,14 @@
     <Compile Include="Segments\SwipeUp\SwipeUpSegment2.cs" />
     <Compile Include="Segments\SwipeUp\SwipeUpSegment3.cs" />
     <Compile Include="Segments\MenuSegments.cs" />
+    <Compile Include="Segments\TouchDownSegment.cs" />
     <Compile Include="Segments\WaveLeftSegments.cs" />
     <Compile Include="Segments\WaveRightSegments.cs" />
     <Compile Include="Segments\ZoomSegments.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\KinectWpfViewers\Microsoft.Samples.Kinect.WpfViewers.csproj">
-      <Project>{4DE23893-27E7-423F-9BB6-BA21DAC2C45E}</Project>
+      <Project>{4de23893-27e7-423f-9bb6-ba21dac2c45e}</Project>
       <Name>Microsoft.Samples.Kinect.WpfViewers</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Microsoft.Kinect.Toolkit\Microsoft.Kinect.Toolkit.csproj">

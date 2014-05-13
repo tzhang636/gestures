@@ -16,3 +16,21 @@ C:\Users\Thomas Zhang\Documents\Visual Studio 2010\Projects\Gestures\GesturesDem
 C:\Users\Thomas Zhang\Documents\Visual Studio 2010\Projects\Gestures\GesturesDemo\obj\x86\Debug\GesturesDemo.csproj.GenerateResource.Cache
 C:\Users\Thomas Zhang\Documents\Visual Studio 2010\Projects\Gestures\GesturesDemo\obj\x86\Debug\Fizbin.Kinect.Gestures.Demo.exe
 C:\Users\Thomas Zhang\Documents\Visual Studio 2010\Projects\Gestures\GesturesDemo\obj\x86\Debug\Fizbin.Kinect.Gestures.Demo.pdb
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Gestures\GesturesDemo\obj\x86\Debug\GesturesDemo.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Gestures\GesturesDemo\obj\x86\Debug\MainWindow.baml
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Gestures\GesturesDemo\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Gestures\GesturesDemo\obj\x86\Debug\App.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Gestures\GesturesDemo\obj\x86\Debug\Fizbin.Kinect.Gestures.Demo_MarkupCompile.cache
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Gestures\GesturesDemo\obj\x86\Debug\Fizbin.Kinect.Gestures.Demo.g.resources
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Gestures\GesturesDemo\obj\x86\Debug\Fizbin.Kinect.Gestures.Demo.Properties.Resources.resources
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Gestures\GesturesDemo\obj\x86\Debug\GesturesDemo.csproj.GenerateResource.Cache
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Gestures\GesturesDemo\obj\x86\Debug\Fizbin.Kinect.Gestures.Demo.exe
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Gestures\GesturesDemo\bin\Debug\Fizbin.Kinect.Gestures.Demo.exe
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Gestures\GesturesDemo\bin\Debug\Fizbin.Kinect.Gestures.Demo.pdb
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Gestures\GesturesDemo\bin\Debug\Fizbin.Kinect.Gestures.dll
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Gestures\GesturesDemo\bin\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Gestures\GesturesDemo\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.dll
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Gestures\GesturesDemo\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.pdb
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Gestures\GesturesDemo\bin\Debug\Microsoft.Kinect.Toolkit.pdb
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Gestures\GesturesDemo\bin\Debug\Fizbin.Kinect.Gestures.pdb
+C:\Users\Thomas\Documents\Visual Studio 2012\Projects\Gestures\GesturesDemo\obj\x86\Debug\Fizbin.Kinect.Gestures.Demo.pdb

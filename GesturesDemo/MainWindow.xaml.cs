@@ -41,7 +41,7 @@ namespace Fizbin.Kinect.Gestures.Demo
             var kinectSensorBinding = new Binding("Kinect") { Source = this.sensorChooser };
             BindingOperations.SetBinding(this.KinectSensorManager, KinectSensorManager.KinectSensorProperty, kinectSensorBinding);
 
-			// add timer for clearing last detected gesture
+            // add timer for clearing last detected gesture
             _clearTimer = new Timer(2000);
             _clearTimer.Elapsed += new ElapsedEventHandler(clearTimer_Elapsed);
         }
@@ -67,6 +67,7 @@ namespace Fizbin.Kinect.Gestures.Demo
             // Application should enable all streams first.
 
             // configure the color stream
+
             kinectSensorManager.ColorFormat = ColorImageFormat.RgbResolution640x480Fps30;
             kinectSensorManager.ColorStreamEnabled = true;
 
@@ -195,6 +196,26 @@ namespace Fizbin.Kinect.Gestures.Demo
             swipeDownSegments[1] = new SwipeDownSegment2();
             swipeDownSegments[2] = new SwipeDownSegment3();
             gestureController.AddGesture("SwipeDown", swipeDownSegments);
+
+            IRelativeGestureSegment[] armsCrossedSegment = new IRelativeGestureSegment[1];
+            armsCrossedSegment[0] = new ArmsCrossedSegment();
+            gestureController.AddGesture("ArmsCrossed", armsCrossedSegment);
+
+            /*IRelativeGestureSegment[] lungeLeftSegment = new IRelativeGestureSegment[1];
+            lungeLeftSegment[0] = new LungeLeftSegment();
+            gestureController.AddGesture("LungeLeft", lungeLeftSegment);
+
+            IRelativeGestureSegment[] lungeRightSegment = new IRelativeGestureSegment[1];
+            lungeRightSegment[0] = new LungeRightSegment();
+            gestureController.AddGesture("LungeRight", lungeRightSegment);*/
+
+            IRelativeGestureSegment[] squatSegment = new IRelativeGestureSegment[1];
+            squatSegment[0] = new SquatSegment();
+            gestureController.AddGesture("Squat", squatSegment);
+
+            IRelativeGestureSegment[] touchdownSegment = new IRelativeGestureSegment[1];
+            touchdownSegment[0] = new TouchDownSegment();
+            gestureController.AddGesture("TouchDown", touchdownSegment);
         }
 
         #region Properties
@@ -271,7 +292,7 @@ namespace Fizbin.Kinect.Gestures.Demo
                     break;
                 case "SwipeRight":
                     Gesture = "Swipe Right";
- 					break;
+                    break;
                 case "SwipeUp":
                     Gesture = "Swipe Up";
                     break;
@@ -283,6 +304,21 @@ namespace Fizbin.Kinect.Gestures.Demo
                     break;
                 case "ZoomOut":
                     Gesture = "Zoom Out";
+                    break;
+                case "ArmsCrossed":
+                    Gesture = "Arms Crossed";
+                    break;
+                /*case "LungeLeft":
+                    Gesture = "Lunge Left";
+                    break;
+                case "LungeRight":
+                    Gesture = "Lunge Right";
+                    break;*/
+                case "Squat":
+                    Gesture = "Squat";
+                    break;
+                case "TouchDown":
+                    Gesture = "TouchDown";
                     break;
 
                 default:
